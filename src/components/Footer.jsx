@@ -1,5 +1,5 @@
 import React from 'react';
-import reactLogo from '../assets/logos/React.png';
+import reactLogo from '../assets/logos/react.png';
 import viteLogo from '../assets/logos/vite.png';
 import tailwindLogo from '../assets/logos/tailwind.png';
 
