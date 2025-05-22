@@ -7,7 +7,7 @@ import nature from '../assets/images/nature.jpg'
 import mountain from '../assets/images/mountain.JPG'
 import hawks from '../assets/images/hawks.jpg'
 import falcons from '../assets/images/falcons.jpg'
-import braves from '../assets/images/braves.jpg'
+import braves from '../assets/images/braves.JPG'
 import cats from '../assets/images/cats.jpg'
 
 const CardSlider = () => {
