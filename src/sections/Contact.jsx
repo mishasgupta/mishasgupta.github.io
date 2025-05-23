@@ -30,7 +30,7 @@ const Contact = forwardRef((props, ref) => {
 
   return (
     <div ref={ref} className="py-15 md:py-25 text-white flex justify-center items-center">
-      <div className="border-emerald-600/30 border-2 shadow-xl rounded-xl w-100 md:w-100 py-12 px-10 bg-gray-700/50">
+      <div className="border-emerald-600/30 border-2 shadow-xl rounded-xl w-75 md:w-100 py-12 px-10 bg-gray-700/50">
         <h3 className="text-center text-2xl md:text-3xl font-semibold">Contact Me</h3>
         <p className="text-center text-sm mt-6">Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
         <form className="flex flex-col mt-4 space-y-2" onSubmit={handleSubmit}>

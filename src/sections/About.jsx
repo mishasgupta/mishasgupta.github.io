@@ -4,7 +4,7 @@ import CardSlider from '../components/CardSlider'
 const About = forwardRef((props, ref) => {
 
   return (
-    <div ref={ref} className="text-white py-15 md:py-20">
+    <div ref={ref} className="text-white py-15 md:py-20 px-10">
       <h3 className="text-center text-3xl md:text-4xl font-semibold">A Little Bit About Me</h3>
       <div className="flex justify-center mt-10">
         <div className="border-2 border-emerald-600/30 shadow-xl rounded-xl p-4 text-white bg-gray-700/50 backdrop-blur-sm transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-emerald-600/20 hover:border-emerald-600/70 w-sm md:w-md lg:w-xl">
