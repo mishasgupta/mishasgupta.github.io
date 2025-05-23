@@ -15,7 +15,7 @@ const Work = forwardRef((props, ref) => {
     },
 
     {
-      title: "Undergraduate Research Assistant, Emory Cognition & Visualization Lab",
+      title: "Research Assistant, Emory Cognition & Visualization Lab",
       date: "Jan 2025 - May 2025",
       desc: "Worked to create data visualizations for a research study examining the impact of data visualization on artistic activism.",
       technologies: ["Python", "Pandas", "Altair"],
@@ -23,7 +23,7 @@ const Work = forwardRef((props, ref) => {
     },
 
     {
-      title: "Undergraduate Research Assistant, Emory Spatial Computing Lab",
+      title: "Research Assistant, Emory Spatial Computing Lab",
       date: "Jan 2025 - May 2025",
       desc: "Collaborated with 4 PhD students on HuMob Challenge 2024, top 10 team submission and paper published at ACM SIGSPATIAL 2024.",
       technologies: ["Python", "Scikit-Learn", "Pandas", "NumPy"],
@@ -32,7 +32,7 @@ const Work = forwardRef((props, ref) => {
   ]
 
   return (
-    <div ref={ref} className="py-15 md:py-25 text-white px-20">
+    <div ref={ref} className="py-15 md:py-25 text-white px-5 md:px-20">
       <h3 className="text-center text-3xl md:text-4xl font-semibold">Experience</h3>
       <div className="mt-10 relative">
 

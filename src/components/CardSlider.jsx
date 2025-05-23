@@ -30,7 +30,7 @@ const CardSlider = () => {
 
   return (
     <div className="embla">
-      <div className="embla__viewport mx-auto mt-14 h-70 md:h-90 w-md md:w-xl border-2 border-emerald-600/30 rounded-xl" ref={emblaRef}>
+      <div className="embla__viewport mx-auto mt-14 h-70 md:h-90 w-sm md:w-md lg:w-xl border-2 border-emerald-600/30 rounded-xl" ref={emblaRef}>
         <div className="embla__container h-full">
 
           <div className="embla__slide flex items-center justify-center">
