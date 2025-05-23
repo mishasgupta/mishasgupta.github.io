@@ -5,7 +5,7 @@ import columbia from '../assets/images/columbia.jpg'
 
 const Home = forwardRef((props, ref) => {
   return (
-    <div ref={ref} className="py-25 md:py-35 px-20 md:px-25 lg:px-60">
+    <div ref={ref} className="py-25 md:py-42 px-20 md:px-25 lg:px-60">
       <div className="flex flex-col md:flex-row md:justify-around items-center gap-6">
         <div className="text-white text-3xl md:text-4xl lg:text-5xl font-semibold">
           <h1>Hi! I'm Misha. </h1>
