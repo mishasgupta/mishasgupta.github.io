@@ -37,7 +37,7 @@ const CardSlider = () => {
             <img 
               src={cats}
               alt="Cats"
-              className="object-cover"
+              className="object-cover h-full w-full"
             />
           </div>
 
@@ -45,7 +45,7 @@ const CardSlider = () => {
             <img 
               src={nature}
               alt="Nature"
-              className="object-cover"
+              className="object-cover h-full w-full"
             />
           </div>
 
@@ -53,7 +53,7 @@ const CardSlider = () => {
             <img 
               src={mountain}
               alt="Mountain"
-              className="object-cover h-full"
+              className="object-cover h-full w-full"
             />
           </div>
 
@@ -61,7 +61,7 @@ const CardSlider = () => {
             <img 
               src={section}
               alt="Trombone Section"
-              className="object-fit"
+              className="object-fit h-full w-full"
             />
           </div>
 
@@ -69,7 +69,7 @@ const CardSlider = () => {
             <img 
               src={orchestra}
               alt="Orchestra"
-              className="object-cover"
+              className="object-cover h-full w-full"
             />
           </div>
 
@@ -77,7 +77,7 @@ const CardSlider = () => {
             <img 
               src={falcons}
               alt="Atlanta Falcons"
-              className="object-cover"
+              className="object-cover h-full w-full"
             />
           </div>
 
@@ -85,7 +85,7 @@ const CardSlider = () => {
             <img 
               src={hawks}
               alt="Atlanta Hawks"
-              className="object-cover"
+              className="object-cover h-full w-full"
             />
           </div>
 
@@ -93,7 +93,7 @@ const CardSlider = () => {
             <img 
               src={braves}
               alt="Atlanta Braves"
-              className="object-cover"
+              className="object-cover h-full w-full"
             />
           </div>
         </div>
