@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react'
-import eagleexchange from '../assets/images/eagleexchange.jpeg'
-import apidaa from '../assets/images/apidaa.png'
+import musiciansmentor from '../assets/images/musiciansmentor.png'
+import odyssey from '../assets/images/odyssey.jpg'
 import aichef from '../assets/images/aichef.jpg'
 import portfolio from '../assets/images/portfolio.png'
 import ProjectCard from '../components/ProjectCard'
@@ -10,19 +10,19 @@ const Projects = forwardRef((props, ref) => {
 
   const projects = [
     { 
-      name: "Eagle Exchange", 
-      desc: "The first online platform built for freelancing and reselling exclusively within the Emory community.", 
-      img: eagleexchange,
-      link: "https://github.com/gilstero/EmoryExchange",
-      technologies: ["Python", "Django", "React"]
+      name: "Musician's Mentor", 
+      desc: "The first online platform built for connecting student musicians for affordable, peer-to-peer music lessons (Currently in testing).", 
+      img: musiciansmentor,
+      link: "https://github.com/mg224/Musicians-Mentor-v2",
+      technologies: ["Java", "Spring Boot", "React"]
     },
 
     { 
-      name: "APIDAA Alumni", 
-      desc: "An interactive directory built to facilitate networking between Emory APIDAA members and alumni.", 
-      img: apidaa,
-      link: "https://github.com/mg224/apidaaalumnibackend",
-      technologies: ["Spring Boot", "React", "PostgreSQL"]
+      name: "Odyssey Family Counseling", 
+      desc: "An employee HR management platform for Odyssey Family Counseling presented by EmoryHack4Impact.", 
+      img: odyssey,
+      link: "https://github.com/Emory-Hack4Impact/Odyssey",
+      technologies: ["Next.js", "Supabase", "Primsa"]
     },
 
     { 
