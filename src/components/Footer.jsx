@@ -1,7 +1,6 @@
-import React from 'react';
-import reactLogo from '../assets/logos/React.png';
-import viteLogo from '../assets/logos/vite.png';
-import tailwindLogo from '../assets/logos/tailwind.png';
+import reactLogo from '../assets/logos/React.png'
+import viteLogo from '../assets/logos/vite.png'
+import tailwindLogo from '../assets/logos/tailwind.png'
 
 const Footer = () => {
 

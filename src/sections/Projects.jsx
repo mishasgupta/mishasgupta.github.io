@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react'
+import { forwardRef } from 'react'
 import musiciansmentor from '../assets/images/musiciansmentor.png'
 import odyssey from '../assets/images/odyssey.jpg'
 import aichef from '../assets/images/aichef.jpg'

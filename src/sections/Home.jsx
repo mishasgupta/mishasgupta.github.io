@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react'
+import { forwardRef } from 'react'
 import headshot from '../assets/images/newheadshot.jpg'
 import { ReactTyped } from 'react-typed'
 import columbia from '../assets/images/columbia.jpg'

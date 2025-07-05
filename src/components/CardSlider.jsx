@@ -1,4 +1,4 @@
-import React, { useEffect, useCallback } from 'react'
+import { useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import section from '../assets/images/section.jpg'
@@ -21,12 +21,6 @@ const CardSlider = () => {
   const scrollNext = useCallback(() => {
     if (emblaApi) emblaApi.scrollNext()
   }, [emblaApi])
-
-  // useEffect(() => {
-  //   if (emblaApi) {
-  //     console.log(emblaApi.slideNodes())
-  //   }
-  // }, [emblaApi])
 
   return (
     <div className="embla">

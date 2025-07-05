@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react'
+import { forwardRef } from 'react'
 import CardSlider from '../components/CardSlider'
 
 const About = forwardRef((props, ref) => {

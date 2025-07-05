@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import linkedin from '../assets/logos/linkedin.jpg'
 import github from '../assets/logos/github.png'
 import Hamburger from 'hamburger-react'
