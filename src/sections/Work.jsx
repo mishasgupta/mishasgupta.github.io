@@ -1,5 +1,4 @@
 import React, { forwardRef, Fragment } from 'react'
-import cavlab from '../assets/images/cavlab.png'
 import TimelineItem from '../components/TimelineItem'
 
 const Work = forwardRef((props, ref) => {
@@ -10,7 +9,7 @@ const Work = forwardRef((props, ref) => {
       title: "Software Engineer Intern, WorkforceIQ",
       date: "May 2025 - Present",
       desc: "Incoming software engineer intern for nursing analytics startup.",
-      technologies: [],
+      technologies: ["Python", "AWS", "Next.js"],
       direction: "left"
     },
 
@@ -35,9 +34,7 @@ const Work = forwardRef((props, ref) => {
     <div ref={ref} className="py-15 md:py-25 text-white px-5 md:px-20">
       <h3 className="text-center text-3xl md:text-4xl font-semibold">Experience</h3>
       <div className="mt-10 relative">
-
         <div className="relative">
-
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-emerald-600 rounded-lg"></div>
 
           {experiences.map((exp, index) => {
@@ -73,6 +70,7 @@ const Work = forwardRef((props, ref) => {
                 </div>
               </Fragment>
           )})}
+
         </div>
       </div>
     </div>
