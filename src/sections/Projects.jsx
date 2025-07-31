@@ -14,7 +14,7 @@ const Projects = forwardRef((props, ref) => {
       desc: "The first online platform built for connecting student musicians for affordable, peer-to-peer music lessons (Currently in testing).", 
       img: musiciansmentor,
       link: "https://github.com/mg224/Musicians-Mentor-v2",
-      technologies: ["Java", "Spring Boot", "React", "PostgreSQL"]
+      technologies: ["Django", "React", "Supabase"]
     },
 
     { 
