@@ -8,7 +8,7 @@ const Work = forwardRef((props, ref) => {
     {
       title: "Software Engineer Intern, WorkforceIQ",
       date: "May 2025 - Present",
-      desc: "Incoming software engineer intern for nursing analytics startup.",
+      desc: "Developed the MVP of WorkforceIQ's nursing workforce analytics dashboard.",
       technologies: ["Python", "AWS", "Next.js"],
       direction: "left"
     },
