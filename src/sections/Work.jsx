@@ -23,7 +23,7 @@ const Work = forwardRef((props, ref) => {
 
     {
       title: "Research Assistant, Emory Spatial Computing Lab",
-      date: "Jan 2025 - May 2025",
+      date: "Sep 2024 - Dec 2024",
       desc: "Collaborated with 4 PhD students on HuMob Challenge 2024, top 10 team submission and paper published at ACM SIGSPATIAL 2024.",
       technologies: ["Python", "Scikit-Learn", "Pandas", "NumPy"],
       direction: "left"
