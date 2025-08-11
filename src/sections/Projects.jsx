@@ -22,7 +22,7 @@ const Projects = forwardRef((props, ref) => {
       desc: "An employee HR management platform for Odyssey Family Counseling presented by EmoryHack4Impact.", 
       img: odyssey,
       link: "https://github.com/Emory-Hack4Impact/Odyssey",
-      technologies: ["Next.js", "Supabase", "Primsa"]
+      technologies: ["Next.js", "Supabase", "Prisma"]
     },
 
     { 
