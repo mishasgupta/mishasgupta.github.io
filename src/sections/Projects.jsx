@@ -26,11 +26,11 @@ const Projects = forwardRef((props, ref) => {
     },
 
     { 
-      name: "AI Chef", 
+      name: "ByteToBite", 
       desc: "An AI sous chef that helps generate recipes using whatever ingredients you have in your pantry!", 
       img: aichef,
-      link: "https://github.com/mg224/ai-chef",
-      technologies: ["JavaScript", "React", "HuggingFace"]
+      link: "https://github.com/mg224/ByteToBite",
+      technologies: ["React", "Express", "Google Gemini API"]
     },
 
     { 
