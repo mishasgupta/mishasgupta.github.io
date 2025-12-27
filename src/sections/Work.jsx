@@ -4,7 +4,6 @@ import TimelineItem from '../components/TimelineItem'
 const Work = forwardRef((props, ref) => {
 
   const experiences = [
-
     {
       title: "Software Engineer Intern, WorkforceIQ",
       date: "May 2025 - Aug 2025",
@@ -25,9 +24,10 @@ const Work = forwardRef((props, ref) => {
       title: "Research Assistant, Emory Spatial Computing Lab",
       date: "Sep 2024 - Dec 2024",
       desc: "Collaborated with 4 PhD students on HuMob Challenge 2024, top 10 team submission and paper published at ACM SIGSPATIAL 2024.",
-      technologies: ["Python", "Scikit-Learn", "Pandas", "NumPy"],
+      technologies: ["Python", "Scikit-Learn", "Pandas"],
       direction: "left"
     },
+
   ]
 
   return (

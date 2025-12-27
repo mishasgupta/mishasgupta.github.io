@@ -8,7 +8,7 @@ const About = forwardRef((props, ref) => {
       <h3 className="text-center text-3xl md:text-4xl font-semibold">A Little Bit About Me</h3>
       <div className="flex justify-center mt-10">
         <div className="border-2 border-emerald-600/30 shadow-xl rounded-xl p-4 text-white bg-gray-700/50 backdrop-blur-sm transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-emerald-600/20 hover:border-emerald-600/70 w-sm md:w-md lg:w-xl">
-          <p className="text-md">I'm a current computer science student at Columbia University and an aspiring software engineer interested in AI, software systems, cloud computing, and databases!</p>
+          <p className="text-md">I'm a current computer science student and aspiring software engineer interested in AI, software systems, backend development, and cloud computing!</p>
 
           <p className="text-md mt-4">In my free time, you can find me spending time with my cats or exploring nature with friends. I'm also a longtime classical musician, playing the trombone since 6th grade. Although I'm currently living in New York City, I still love to support my hometown Atlanta sports teams whenever I can!</p>
         </div>
