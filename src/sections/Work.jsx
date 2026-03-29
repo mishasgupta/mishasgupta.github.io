@@ -4,27 +4,20 @@ import TimelineItem from '../components/TimelineItem'
 const Work = forwardRef((props, ref) => {
 
   const experiences = [
+    
     {
-      title: "Software Engineer Intern, WorkforceIQ",
-      date: "May 2025 - Aug 2025",
-      desc: "Developed the MVP of WorkforceIQ's nursing workforce analytics dashboard.",
-      technologies: ["Python", "AWS", "Next.js"],
-      direction: "left"
-    },
-
-    {
-      title: "Research Assistant, Emory Cognition & Visualization Lab",
-      date: "Jan 2025 - May 2025",
-      desc: "Worked to create data visualizations for a research study examining the impact of data visualization on artistic activism.",
-      technologies: ["Python", "Pandas", "Altair"],
+      title: "Associate Software Developer, Spectator Publishing Company",
+      date: "Sep 2025 - Present",
+      desc: "Worked on Spectator products CULPA and theShaft, developing new features/improvements and bug fixes to help maintain sites which receive over 5.6 million visits per year.",
+      technologies: ["Python", "React", "SQL"],
       direction: "right"
     },
 
     {
-      title: "Research Assistant, Emory Spatial Computing Lab",
-      date: "Sep 2024 - Dec 2024",
-      desc: "Collaborated with 4 PhD students on HuMob Challenge 2024, top 10 team submission and paper published at ACM SIGSPATIAL 2024.",
-      technologies: ["Python", "Scikit-Learn", "Pandas"],
+      title: "Software Engineer Intern, WorkforceIQ",
+      date: "May 2025 - Aug 2025",
+      desc: "Developed the MVP of WorkforceIQ's nursing workforce analytics dashboard, a full stack platform that allows hospital executives to better manage nurse turnover.",
+      technologies: ["Python", "AWS", "Next.js"],
       direction: "left"
     },
 

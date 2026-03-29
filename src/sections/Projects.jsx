@@ -14,7 +14,7 @@ const Projects = forwardRef((props, ref) => {
       desc: "The first online platform built for connecting student musicians for affordable, peer-to-peer music lessons.", 
       img: musiciansmentor,
       link: "https://musiciansmentor.vercel.app/",
-      technologies: ["Django", "React", "Supabase"]
+      technologies: ["Django", "React", "PostgreSQL"]
     },
 
     { 
@@ -35,7 +35,7 @@ const Projects = forwardRef((props, ref) => {
 
     { 
       name: "Personal Portfolio", 
-      desc: "My personal portfolio website! Built with React, Vite, Tailwind CSS, and Framer Motion.", 
+      desc: "My personal portfolio website! Built with React, Vite, and Tailwind CSS.", 
       img: portfolio,
       link: "",
       technologies: ["JavaScript", "React", "Tailwind CSS"]
