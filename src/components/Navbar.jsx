@@ -44,7 +44,7 @@ const Navbar = ( { homeRef, aboutRef, workRef, projectsRef, contactRef } ) => {
           onClick={() => scrollToSection(workRef)}
           className="group transition duration-300 relative overflow-hidden animate-fade-down animate-duration-1000 animate-delay-500 cursor-pointer"
         >
-          Work
+          Experience
           <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transform transition-transform duration-300 origin-left"></span>
         </button>
         <button 

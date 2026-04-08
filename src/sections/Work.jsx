@@ -6,6 +6,14 @@ const Work = forwardRef((props, ref) => {
   const experiences = [
     
     {
+      title: "Incoming Software Engineer Intern, Bloomberg LP",
+      date: "Jun 2026 - Aug 2026",
+      desc: "Incoming Summer 2026!",
+      technologies: [":)"],
+      direction: "left"
+    },
+
+    {
       title: "Associate Software Developer, Spectator Publishing Company",
       date: "Sep 2025 - Present",
       desc: "Worked on Spectator products CULPA and theShaft, developing new features/improvements and bug fixes to help maintain sites which receive over 5.6 million visits per year.",

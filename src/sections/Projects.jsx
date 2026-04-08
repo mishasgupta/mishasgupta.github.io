@@ -44,7 +44,7 @@ const Projects = forwardRef((props, ref) => {
 
   return (
     <div ref={ref} className="py-15 md:py-25 text-white flex flex-col justify-center items-center">
-      <h3 className="text-3xl md:text-4xl font-semibold">Portfolio</h3>
+      <h3 className="text-3xl md:text-4xl font-semibold">Projects</h3>
       <div className="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12 mt-10 h-full w-3/4 px-8 md:px-20 lg:px-2 py-12 md:py-12 lg:py-12">
         {projects.map((project, index) => 
           (
