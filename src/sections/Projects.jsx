@@ -13,7 +13,7 @@ const Projects = forwardRef((props, ref) => {
       name: "Musician's Mentor", 
       desc: "The first online platform built for connecting student musicians for affordable, peer-to-peer music lessons.", 
       img: musiciansmentor,
-      link: "https://musiciansmentor.vercel.app/",
+      link: "https://github.com/mg224/Musicians-Mentor-v2",
       technologies: ["Django", "React", "PostgreSQL"]
     },
 
