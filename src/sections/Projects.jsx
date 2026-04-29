@@ -57,7 +57,7 @@ const Projects = forwardRef((props, ref) => {
       desc: "My personal portfolio website! Built with React, Vite, and Tailwind CSS.", 
       img: portfolio,
       link: "",
-      technologies: ["JavaScript", "React", "Tailwind CSS"]
+      technologies: ["JavaScript", "React.js", "Tailwind CSS"]
     },
 ];
 
