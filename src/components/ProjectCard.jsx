@@ -1,8 +1,8 @@
 
 const ProjectCard = ({ name, desc, img, link, technologies }) => {
   return (
-    <a href={link} target="_blank">
-      <div className="flex flex-col items-center justify-center w-70 md:w-80 shadow-2xl hover:shadow-emerald-600/20 hover:scale-110 rounded-xl hover:cursor-pointer transition ease-in-out duration-300 justify-self-center border-2 border-emerald-600/30 bg-gray-700/50 p-4 gap-4">
+    <a href={link} target="_blank" className="h-full">
+      <div className="h-full flex flex-col items-center justify-center w-70 md:w-80 shadow-2xl hover:shadow-emerald-600/20 hover:scale-110 rounded-xl hover:cursor-pointer transition ease-in-out duration-300 justify-self-center border-2 border-emerald-600/30 bg-gray-700/50 p-4 gap-4">
         <h3 className="text-lh md:text-xl font-semibold">{name}</h3>
         <img 
           src={img}
