@@ -16,7 +16,7 @@ const Work = forwardRef((props, ref) => {
     {
       title: "Associate Software Developer, Spectator Publishing Company",
       date: "Sep 2025 - Present",
-      desc: "Worked on Spectator products CULPA and theShaft, developing new features/improvements and bug fixes to help maintain sites which receive over 5.6 million visits per year.",
+      desc: "Worked on Spectator products CULPA and theShaft, developing new features/improvements and bug fixes for over 5,000 combined users.",
       technologies: ["Python", "React.js", "SQL"],
       direction: "right"
     },
