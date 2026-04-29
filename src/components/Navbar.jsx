@@ -64,7 +64,7 @@ const Navbar = ( { homeRef, aboutRef, workRef, projectsRef, contactRef } ) => {
       </div>
 
       <div className="hidden md:flex space-x-4">
-        <a href="https://github.com/mg224" target="_blank">
+        <a href="https://github.com/mishasgupta" target="_blank">
           <img 
             src={github}
             alt="github"

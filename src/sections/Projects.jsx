@@ -16,7 +16,7 @@ const Projects = forwardRef((props, ref) => {
       name: "Redis Clone in C++", 
       desc: "A Redis-like in-memory key-value database built from scratch in C/C++", 
       img: redis,
-      link: "https://github.com/mg224",
+      link: "https://github.com/mishasgupta",
       technologies: ["C", "C++", "Sockets API"]
     },
     
@@ -24,7 +24,7 @@ const Projects = forwardRef((props, ref) => {
       name: "mymake", 
       desc: "A utility which performs a subset of GNU make’s functionality, written in C++.", 
       img: makefile,
-      link: "https://github.com/mg224",
+      link: "https://github.com/mishasgupta",
       technologies: ["C++"]
     },
 
@@ -32,7 +32,7 @@ const Projects = forwardRef((props, ref) => {
       name: "HTTP/1.0 Web Server in C", 
       desc: "A simplified HTTP/1.0 web server that handles TCP sockets, request parsing, and static file serving.", 
       img: webserver,
-      link: "https://github.com/mg224",
+      link: "https://github.com/mishasgupta",
       technologies: ["C", "Sockets API"]
     },
     
@@ -40,7 +40,7 @@ const Projects = forwardRef((props, ref) => {
       name: "Musician's Mentor", 
       desc: "The first online platform built for connecting student musicians for affordable, peer-to-peer music lessons.", 
       img: musiciansmentor,
-      link: "https://github.com/mg224/Musicians-Mentor-v2",
+      link: "https://github.com/mishasgupta/Musicians-Mentor-v2",
       technologies: ["Django", "React.js", "PostgreSQL"]
     },
 
@@ -48,7 +48,7 @@ const Projects = forwardRef((props, ref) => {
       name: "ByteToBite", 
       desc: "An AI sous chef that helps generate recipes using whatever ingredients you have in your pantry!", 
       img: aichef,
-      link: "https://github.com/mg224/ByteToBite",
+      link: "https://github.com/mishasgupta/ByteToBite",
       technologies: ["React.js", "Express.js", "Google Gemini API"]
     },
 
