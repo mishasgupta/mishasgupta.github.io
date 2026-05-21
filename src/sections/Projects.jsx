@@ -13,7 +13,7 @@ const Projects = forwardRef((props, ref) => {
 
   const projects = [
     { 
-      name: "Redis Clone in C++", 
+      name: "Redis Clone in C/C++", 
       desc: "A Redis-like in-memory key-value database built from scratch in C/C++", 
       img: redis,
       link: "https://github.com/mishasgupta",
@@ -30,7 +30,7 @@ const Projects = forwardRef((props, ref) => {
 
     { 
       name: "HTTP/1.0 Web Server in C", 
-      desc: "A simplified HTTP/1.0 web server that handles TCP sockets, request parsing, and static file serving.", 
+      desc: "A simplified HTTP/1.0 web server that handles socket communication, request parsing, and static file serving.", 
       img: webserver,
       link: "https://github.com/mishasgupta",
       technologies: ["C", "Sockets API"]
