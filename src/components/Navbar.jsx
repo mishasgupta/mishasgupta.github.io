@@ -23,7 +23,7 @@ const Navbar = ( { homeRef, aboutRef, workRef, projectsRef, contactRef } ) => {
 
   return (
     <div className="flex justify-between items-center text-white sticky top-0 z-50 bg-linear-to-r from-green-900 to-gray-900 animate-fade animate-duration-2000 animate-delay-150 p-8 shadow-xl">
-      <div className="text-3xl font-mono">Misha</div>
+      <div className="text-3xl font-mono">MG</div>
 
       <div className="hidden md:flex space-x-6 text-lg">
         <button 
