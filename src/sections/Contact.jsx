@@ -23,7 +23,10 @@ const Contact = forwardRef((props, ref) => {
             alert("Message Sent!");
             setFormData({ name: "", email: "", message: "" })
         })
-        .catch(() => alert("Oops! Something went wrong. Please try again."))
+        .catch((error) => {
+          console.log(error)
+          alert("Oops! Something went wrong. Please try again.")
+        })
   }
 
   const isFormValid = formData.name && formData.email && formData.message
