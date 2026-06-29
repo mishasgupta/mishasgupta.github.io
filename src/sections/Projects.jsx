@@ -12,13 +12,13 @@ import ProjectCard from '../components/ProjectCard'
 const Projects = forwardRef((props, ref) => {
 
   const projects = [
-    { 
-      name: "Redis Clone in C/C++", 
-      desc: "A Redis-like in-memory key-value database built from scratch in C/C++", 
-      img: redis,
-      link: "https://github.com/mishasgupta",
-      technologies: ["C", "C++", "Sockets API"]
-    },
+    // { 
+    //   name: "Redis Clone in C/C++", 
+    //   desc: "A Redis-like in-memory key-value database built from scratch in C/C++", 
+    //   img: redis,
+    //   link: "https://github.com/mishasgupta",
+    //   technologies: ["C", "C++", "Sockets API"]
+    // },
     
     { 
       name: "mymake", 
